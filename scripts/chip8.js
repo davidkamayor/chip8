@@ -1,7 +1,9 @@
 import Renderer from "./renderer.js";
+import Keyboard from "./keyboard.js";
 
 //new Renderer with scale of 10
-const renderer = new Renderer(5);
+const renderer = new Renderer(10);
+const keyboard = new Keyboard();
 
 let loop;
 let fps = 60,
